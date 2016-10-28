@@ -1,0 +1,16 @@
+[user]
+	name = Nathan Mall
+	email = nmall@widen.com
+[core]
+	autocrlf = input
+[color]
+	ui = true
+[push]
+	default = upstream
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	co = checkout
+	br = branch
+	st = status
+	cp = cherry-pick
+	push = push -u
