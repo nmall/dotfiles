@@ -10,7 +10,7 @@
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 	co = checkout
-	br = branch
+	cb = checkout -b 
 	st = status
 	cp = cherry-pick
 	push = push -u
